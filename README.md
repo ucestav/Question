@@ -1,5 +1,6 @@
-# Question
-The question app used to click a location on a map and insert one question and four answers into the database
+# Question App
+
+A user clicks a point on the map and inserts data relating to a point of interest(POI). Corresponding input values are then stored in the PostgreSQL database.
 
 A new question is created when a user clicks on a point on the map. A question relating to the point is inserted into the text input of a popup, along with the additional details (e.g. coordinates). These values are submitted into the PostgreSQL database which is then inserted into the Quiz App when deployed. A new question can be submitted when the user clicks on a new map point. The Question App tracks the position of a user and the map view is set to its location boundaries. This is beneficial since the user can easily identify their own position and become aware of nearby POI's.
 

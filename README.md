@@ -7,6 +7,14 @@ Similar to the Quiz App, there are 4 files that are used to achieve functionalit
 
 Quiz data from the PostgreSQL database is requested and inserted into the Question App. A marker is inserted on a map to identify the location of the quiz points and a corresponding popup states that it is a ‘Location with Existing Question’. The user is able to select any point on a map and a popup with text fields relating to the question, four alternative answers, correct answer, longitude and latitude is created. The user inserts the relevant information for each text field and these values are inserted into the PostgreSQL databse when the submit button is pressed. The location of a user is tracked and the map view is set to its boundaries. This function helps the user to identify their own position and they can become orientated with their own surroudings first. 
 
+Steps to Run Question App
+1. Download Question App: The code to run this app is on a GitHub account (https://github.com/ucestav).
+2. Run NodeJS Server: Existing questions are inserted on the map and new questions are uploaded into the database 
+3. Open Question App and locate user's position: The user's location is identified by a red marker and the map view is set to have the user's location at the centre. 
+4. Search map and click on a location: Existing questions are identified by blue markers. A user creates a question that is relevant to the location.
+5. A popup with textboxes will appear at the clicked location and the user is required to input the following data: a question, four alternative answers, the correct answer, longitude and latitude.
+6. After all textboxes are filled out, press the submit button and the data is inserted into the database.
+
 **References for the Question App**
 
 [uploadData.js All code adapted from UCL CEGEG077 Module, Week 6 and 7:Creating a Data Server (API) , accessed 18th April 2018]
